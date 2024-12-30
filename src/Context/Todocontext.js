@@ -1,6 +1,15 @@
 import React,{createContext,useContext} from 'react'
 
 const Todocontext = createContext({
+
+/*
+* Logic : 
+      > createContext
+      > Make Custom Hook
+      > Add functionality for Context and provide them 
+      > wrap this fun in those file where you want to access of context, > useContext
+
+*/
    todos:[
       {
          id: 1,
@@ -30,12 +39,3 @@ export {
    useTodo,
 }
 
-
-/*
-> createContext
-> Make Custom Hook
-> Add functionality for Context and provide them 
-> wrap this fun in those file where you want to access of context, > useContext
-
-> 
-*/
